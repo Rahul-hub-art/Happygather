@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Events | HappyGather</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+<div class="page-transition"></div>
+
+<!-- NAVBAR -->
+
+<header id="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-calendar-days"></i> HappyGather
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="speakers.html">Speakers</a>
+<a href="tickets.html">Tickets</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="nav-right">
+
+<div class="search-bar">
+<input type="text" placeholder="Search events...">
+<i class="fa fa-search"></i>
+</div>
+
+<div class="login-area">
+
+<i class="fa fa-user login-icon"></i>
+
+<div class="login-dropdown">
+<a href="#">Login</a>
+<a href="#">Register</a>
+<a href="#">My Account</a>
+</div>
+
+</div>
+
+<i class="fa-solid fa-bars menu-toggle"></i>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="events-hero">
+
+<h1 data-aos="fade-up">Discover Amazing Events</h1>
+
+<p data-aos="fade-up" data-aos-delay="200">
+Explore conferences, workshops and networking events worldwide
+</p>
+
+</section>
+
+
+<!-- SEARCH -->
+
+<section class="event-search">
+
+<div class="search-wrapper">
+
+<input type="text" placeholder="Search events..." class="event-search-input">
+
+<button><i class="fa fa-search"></i></button>
+
+</div>
+
+</section>
+
+
+<!-- CATEGORY FILTER -->
+
+<section class="event-filter">
+
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="tech">Tech</button>
+<button class="filter-btn" data-filter="business">Business</button>
+<button class="filter-btn" data-filter="design">Design</button>
+
+</section>
+
+
+<!-- EVENTS GRID -->
+
+<section class="events-container">
+
+<div class="event-card tech" data-aos="fade-up">
+
+<img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87">
+
+<div class="event-info">
+
+<h3>Tech Innovation Summit</h3>
+
+<p><i class="fa fa-calendar"></i> May 20, 2026</p>
+
+<p><i class="fa fa-location-dot"></i> New York</p>
+
+<div class="event-price">$120</div>
+
+<button class="event-btn">Book Ticket</button>
+
+</div>
+
+</div>
+
+
+<div class="event-card business" data-aos="fade-up" data-aos-delay="200">
+
+<img src="https://images.unsplash.com/photo-1515169067865-5387ec356754">
+
+<div class="event-info">
+
+<h3>Global Business Conference</h3>
+
+<p><i class="fa fa-calendar"></i> June 12, 2026</p>
+
+<p><i class="fa fa-location-dot"></i> London</p>
+
+<div class="event-price">$150</div>
+
+<button class="event-btn">Book Ticket</button>
+
+</div>
+
+</div>
+
+
+<div class="event-card design" data-aos="fade-up" data-aos-delay="400">
+
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+
+<div class="event-info">
+
+<h3>Creative Design Meetup</h3>
+
+<p><i class="fa fa-calendar"></i> July 5, 2026</p>
+
+<p><i class="fa fa-location-dot"></i> Berlin</p>
+
+<div class="event-price">$90</div>
+
+<button class="event-btn">Book Ticket</button>
+
+</div>
+
+</div>
+
+
+<div class="event-card tech" data-aos="fade-up">
+
+<img src="https://images.unsplash.com/photo-1551818255-e6e10975cd17">
+
+<div class="event-info">
+
+<h3>AI Future Conference</h3>
+
+<p><i class="fa fa-calendar"></i> August 10, 2026</p>
+
+<p><i class="fa fa-location-dot"></i> Tokyo</p>
+
+<div class="event-price">$180</div>
+
+<button class="event-btn">Book Ticket</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- WHY ATTEND -->
+
+<section class="why-attend">
+
+<h2 data-aos="fade-up">Why Attend Our Events</h2>
+
+<div class="why-grid">
+
+<div class="why-card" data-aos="zoom-in">
+
+<i class="fa-solid fa-users"></i>
+
+<h4>Networking</h4>
+
+<p>Meet industry professionals and expand your connections.</p>
+
+</div>
+
+<div class="why-card" data-aos="zoom-in" data-aos-delay="200">
+
+<i class="fa-solid fa-lightbulb"></i>
+
+<h4>Learn New Skills</h4>
+
+<p>Gain valuable insights from top experts and speakers.</p>
+
+</div>
+
+<div class="why-card" data-aos="zoom-in" data-aos-delay="400">
+
+<i class="fa-solid fa-globe"></i>
+
+<h4>Global Community</h4>
+
+<p>Connect with innovators from different countries.</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CALL TO ACTION -->
+
+<section class="cta-section">
+
+<h2 data-aos="fade-up">Want to Host Your Event?</h2>
+
+<p data-aos="fade-up" data-aos-delay="200">
+Join HappyGather and promote your events globally
+</p>
+
+<button class="cta-btn">Create Event</button>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h3>About</h3>
+<p>HappyGather connects innovators worldwide.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Support</h3>
+<ul>
+<li>Help Center</li>
+<li>Privacy Policy</li>
+<li>Terms</li>
+</ul>
+</div>
+
+<div>
+<h3>Newsletter</h3>
+<input type="email" placeholder="Enter email">
+<button>Subscribe</button>
+</div>
+
+</div>
+
+<p style="text-align:center;margin-top:40px;">
+© 2026 HappyGather | Designed by Rahul Nishad
+</p>
+
+</footer>
+
+
+<script>
+
+AOS.init({
+duration:1000,
+once:true
+});
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

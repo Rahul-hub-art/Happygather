@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery | HappyGather</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+<div class="page-transition"></div>
+
+<!-- NAVBAR -->
+
+<header id="navbar">
+
+<div class="logo">
+<i class="fa-solid fa-calendar-days"></i> HappyGather
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="events.html">Events</a>
+<a href="speakers.html">Speakers</a>
+<a href="tickets.html">Tickets</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="nav-right">
+
+<!-- SEARCH -->
+
+<div class="search-bar">
+<input type="text" placeholder="Search events...">
+<i class="fa fa-search"></i>
+</div>
+
+<!-- LOGIN AREA -->
+
+<div class="login-area">
+
+<i class="fa fa-user login-icon"></i>
+
+<div class="login-dropdown">
+<a href="#">Login</a>
+<a href="#">Register</a>
+<a href="#">My Account</a>
+</div>
+
+</div>
+
+<!-- MENU ICON -->
+
+<i class="fa-solid fa-bars menu-toggle"></i>
+
+<!-- SETTINGS DROPDOWN -->
+
+<div class="nav-dropdown">
+
+<ul>
+
+<li><i class="fa fa-globe"></i> Language</li>
+
+<li id="darkToggle">
+<i class="fa fa-moon"></i> Dark Mode
+</li>
+
+<li><i class="fa fa-circle-question"></i> Help</li>
+
+<li><i class="fa fa-headset"></i> Support</li>
+
+<li><i class="fa fa-circle-info"></i> About</li>
+
+<li><i class="fa fa-right-from-bracket"></i> Logout</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="page-hero">
+
+<h1 data-aos="fade-up">Event Gallery</h1>
+
+<p data-aos="fade-up" data-aos-delay="200">
+Memorable moments from our conferences and events
+</p>
+
+</section>
+
+<!-- FILTER -->
+
+<section class="gallery-filter">
+
+<button class="g-btn active" data-filter="all">All</button> <button class="g-btn" data-filter="conference">Conference</button> <button class="g-btn" data-filter="workshop">Workshop</button> <button class="g-btn" data-filter="networking">Networking</button>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="gallery-section">
+
+<div class="gallery-grid">
+
+<div class="gallery-item conference">
+<img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87">
+</div>
+
+<div class="gallery-item workshop">
+<img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678">
+</div>
+
+<div class="gallery-item networking">
+<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30">
+</div>
+
+<div class="gallery-item conference">
+<img src="https://images.unsplash.com/photo-1511578314322-379afb476865">
+</div>
+
+<div class="gallery-item workshop">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+</div>
+
+<div class="gallery-item networking">
+<img src="https://images.unsplash.com/photo-1515169067868-5387ec356754?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29ycG9yYXRlJTIwZXZlbnRzfGVufDB8fDB8fHww">
+</div>
+
+<div class="gallery-item workshop">
+<img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmVzdGl2YWxzfGVufDB8fDB8fHww">
+</div>
+
+<div class="gallery-item workshop">
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
+</div>
+
+</div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div class="lightbox">
+
+<span class="close">×</span>
+
+<img class="lightbox-img">
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h3>About</h3>
+<p>HappyGather connects innovators worldwide.</p>
+</div>
+
+<div>
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="events.html">Events</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+
+<div>
+<h3>Newsletter</h3>
+<input type="email" placeholder="Enter email">
+<button>Subscribe</button>
+</div>
+
+</div>
+
+<p style="text-align:center;margin-top:40px;">
+© 2026 HappyGather | Designed by Rahul Nishad
+</p>
+
+</footer>
+
+<script>
+
+AOS.init({
+duration:1000,
+once:true
+});
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
